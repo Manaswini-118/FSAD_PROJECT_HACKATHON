@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #0f0f1a;
+  color: white;
+}
+
+/* BLOBS */
+.blob {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  filter: blur(120px);
+  opacity: 0.5;
+}
+
+.blob1 {
+  background: #7c3aed;
+  top: -100px;
+  left: -100px;
+}
+
+.blob2 {
+  background: #06b6d4;
+  bottom: -100px;
+  right: -100px;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.hero p {
+  opacity: 0.6;
+}
+
+/* PANEL */
+.panel {
+  margin: 50px auto;
+  width: 80%;
+  display: flex;
+  gap: 30px;
+}
+
+/* CARD */
+.card {
+  flex: 1;
+  padding: 25px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* INPUT */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255,255,255,0.1);
+  color: white;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(90deg, #7c3aed, #06b6d4);
+  color: white;
+  cursor: pointer;
+}
+
+/* STATS */
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.stats span {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+/* BARS */
+.bar-bg {
+  height: 10px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.bar {
+  height: 100%;
+  border-radius: 5px;
+}
+
+.old {
+  width: 70%;
+  background: #ef4444;
+}
+
+.new {
+  width: 50%;
+  background: #22c55e;
+}
+
+/* INSIGHT */
+.insight {
+  margin-top: 15px;
+  padding: 10px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+}
+
+/* EMPTY */
+.empty {
+  opacity: 0.5;
+}
